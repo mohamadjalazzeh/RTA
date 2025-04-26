@@ -11,3 +11,14 @@ index 5f76af9..ad3275e 100644
      compileSdkVersion safeExtGet('compileSdkVersion', 31)
      buildToolsVersion safeExtGet('buildToolsVersion', "31.0.0")
  
+diff --git a/node_modules/jail-monkey/android/src/main/AndroidManifest.xml b/node_modules/jail-monkey/android/src/main/AndroidManifest.xml
+index a2f47b6..2d68b73 100644
+--- a/node_modules/jail-monkey/android/src/main/AndroidManifest.xml
++++ b/node_modules/jail-monkey/android/src/main/AndroidManifest.xml
+@@ -1,2 +1,4 @@
+-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.github.reactnativecommunity.jailmonkey">
++
+ </manifest>
+\ No newline at end of file
