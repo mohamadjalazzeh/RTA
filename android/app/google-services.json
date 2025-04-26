@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "169467291329",
+    "project_id": "prod-myrta",
+    "storage_bucket": "prod-myrta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169467291329:android:cd355f37d2061f7dcbd640",
+        "android_client_info": {
+          "package_name": "ae.rta.myrta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpUfQzOs2d9UD_s2G63A8Y94dcv5YIGOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
