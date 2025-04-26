@@ -18,7 +18,7 @@ buildscript {
         google()
         mavenCentral()
         maven { url "https://maven.fabric.io/public" }
-        maven { url "https://packages.rnd.mendix.com/jcenter" }
+       
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.2.1"
@@ -49,5 +49,14 @@ allprojects {
         maven { url "https://maven.scijava.org/content/repositories/public/" }
         maven { url "https://maven.scijava.org/content/repositories/jitpack/" }
         maven { url "https://maven.scijava.org/content/repositories/jcenter/" }
+    }
+     configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            if (details.requested.group == 'com.google.android.gms' &&
+                details.requested.name == 'play-services-location') {
+                details.useVersion '18.0.1'
+                details.because 'Ensure the correct version is used from Google repositories'
+            }
+        }
     }
 }
