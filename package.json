@@ -22,7 +22,7 @@
     "@react-native-firebase/app": "17.3.0",
     "@react-native-firebase/messaging": "17.3.0",
     "@react-native-picker/picker": "^2.4.8",
-    "jail-monkey": "^2.8.3",
+    "jail-monkey": "2.7.0",
     "react-native": "0.70.7",
     "react-native-code-push": "7.0.5",
     "react-native-device-info": "8.7.1",
