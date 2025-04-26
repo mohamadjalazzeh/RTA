@@ -51,12 +51,8 @@ allprojects {
         maven { url "https://maven.scijava.org/content/repositories/jcenter/" }
     }
      configurations.all {
-        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
-            if (details.requested.group == 'com.google.android.gms' &&
-                details.requested.name == 'play-services-location') {
-                details.useVersion '18.0.1'
-                details.because 'Ensure the correct version is used from Google repositories'
-            }
+         resolutionStrategy {
+            force "com.google.android.gms:play-services-location:21.0.1"
         }
     }
 }
