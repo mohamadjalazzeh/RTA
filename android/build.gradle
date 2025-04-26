@@ -44,7 +44,7 @@ allprojects {
         maven { url "https://www.jitpack.io" }
 
         // Mendix repo (place it last)
-        maven { url "https://packages.rnd.mendix.com/jcenter" }
+     
 
         maven { url "https://maven.scijava.org/content/repositories/public/" }
         maven { url "https://maven.scijava.org/content/repositories/jitpack/" }
