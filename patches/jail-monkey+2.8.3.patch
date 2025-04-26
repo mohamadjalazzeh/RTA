@@ -1,0 +1,13 @@
+diff --git a/node_modules/jail-monkey/android/build.gradle b/node_modules/jail-monkey/android/build.gradle
+index 5f76af9..ad3275e 100644
+--- a/node_modules/jail-monkey/android/build.gradle
++++ b/node_modules/jail-monkey/android/build.gradle
+@@ -5,7 +5,7 @@ def safeExtGet(prop, fallback) {
+ apply plugin: 'com.android.library'
+ 
+ android {
+-    namespace 'com.gantix.JailMonkey'
++    namespace 'com.github.reactnativecommunity.jailmonkey'
+     compileSdkVersion safeExtGet('compileSdkVersion', 31)
+     buildToolsVersion safeExtGet('buildToolsVersion', "31.0.0")
+ 
